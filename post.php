@@ -20,4 +20,10 @@ $content = "$name, $ccv, $exp, $ccnumber"; ?>
 ])); ?>
 
 </body>
+    <footer>
+     <p>Copyrigh (C) 2024</p>
+</footer>
+<address>
+     <p>Buy this website! Send an e-mail <a href=mailto:installerwizard@national.shitposting.agency>here.</a></p>
+</address>
 </html>
